@@ -1,0 +1,246 @@
+*{
+    margin 0;
+    padding: 0;
+
+}
+
+
+.headmenu{
+    position: fixe;
+}
+
+
+
+
+.nav{
+    position: absolute;
+    top: 2%;
+    left:60%;
+}
+
+.trends{
+    border-radius: 22px;
+    padding-left: 22px;
+    padding-right: 22px;
+    
+    
+}
+
+
+#heart :hover{
+    background-color: antiquewhite;
+}
+
+.signnav
+{
+display: none;
+
+}
+
+.Searchnavabar {
+
+    position: absolute;
+    right: 19%;
+    top: 7%;
+    text-decoration: none;
+    font-size: 18px;
+    margin-left: 1px;
+    position: absolute;
+    
+}
+
+.navcontainer{
+   position: fixed;
+    width: 300%;
+   height: 9vh;
+   background-color: rgb(65, 63, 63);
+   z-index: -1;
+   
+}
+
+ #logo{
+
+position: absolute;
+left: 15%;
+}
+
+
+.container img{
+    margin-left: 90%;
+}
+
+
+
+.dropdown{
+    display: flex;
+    justify-content: center;
+    margin-top: 60px;
+    left: 1%;
+    list-style-type: none;
+    z-index: 1;
+}
+
+.dropdown a{
+    display: block;
+    width: 70px;
+    text-decoration: none;
+    color: white;
+}
+
+#test{
+    display: none;
+}
+
+.dropdown li:nth-child(1):hover #test 
+{
+    display: block;
+
+}
+
+#product{
+    list-style-type: none;
+    position: absolute;
+    left: 30%;
+    background-color: rgb(255, 255, 255);
+    width: 50%;
+    height: 40vh;
+   display: none;
+
+}
+
+.dropdown li:nth-child(1):hover #product
+{
+    display: block;
+
+}
+
+#product2{
+    list-style-type: none;
+    position: absolute;
+    left: 30%;
+    background-color: rgb(255, 255, 255);
+    width: 50%;
+    height: 40vh;
+   display: none;
+
+}
+
+.dropdown li:nth-child(2):hover #product2
+{
+    display: block;
+
+}
+
+#product3{
+    list-style-type: none;
+    position: absolute;
+    left: 30%;
+    background-color: rgb(255, 255, 255);
+    width: 50%;
+    height: 40vh;
+   display: none;
+
+}
+
+.dropdown li:nth-child(3):hover #product3
+{
+    display: block;
+
+}
+
+
+#product4{
+    list-style-type: none;
+    position: absolute;
+    left: 30%;
+    background-color: rgb(255, 255, 255);
+    width: 50%;
+    height: 40vh;
+   display: none;
+
+}
+
+.expolore img{
+    width: 100%;
+}
+
+
+
+.dropdown li:nth-child(4):hover #product4
+{
+    display: block;
+
+}
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+/* <!--secondpart--> */
+
+.caro:hover
+{
+transform: scale(1.02);
+
+
+}
+
+.caro{
+    transition: all 1.1s;
+}
+
+.shop:hover{
+    transform: scale(1.02);
+}
+
+.shop{
+    transition: all 1.1s;
+    
+}
+
+
+ 
+.card:hover
+{
+transform: scale(1.02);
+
+
+}
+
+.card{
+    transition: all 1.1s;
+    
+}
+
